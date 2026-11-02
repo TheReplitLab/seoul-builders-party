@@ -113,7 +113,7 @@ function RoomScenery({ calm }: { calm: boolean }) {
       ))}
       {/* neon-ish sign as painted wood */}
       <rect x="1230" y="130" width="320" height="120" rx="60" fill="#F7F1E6" stroke={ink} strokeWidth="5" />
-      <text x="1390" y="208" textAnchor="middle" fontFamily="Black Han Sans" fontSize="52" fill="#FF5934">merge &amp; meet</text>
+      <text x="1390" y="202" textAnchor="middle" fontFamily="Black Han Sans" fontSize="36" textLength="264" lengthAdjust="spacingAndGlyphs" fill="#FF5934">merge &amp; meet</text>
       {/* plant */}
       <rect x="1480" y="430" width="70" height="80" fill="#C9874F" stroke={ink} strokeWidth="4" />
       <path d="M1515 430 Q1460 340 1490 300 Q1515 360 1515 430 Q1530 330 1570 310 Q1560 380 1515 430" fill="#21A675" stroke={ink} strokeWidth="4" />
